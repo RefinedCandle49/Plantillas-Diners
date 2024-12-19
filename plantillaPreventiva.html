@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preventiva</title>
+    <style>
+        * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #001f42;
+}
+
+li {
+    float: left;
+    color: white;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#logo {
+    width: 150px;
+    padding: 1rem;
+
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: center;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.paragraph {
+    color: #676767;
+    font-size: 25px;
+    text-align: center;
+}
+
+.title {
+    color: #001f42;
+    font-size: 45px;
+    text-align: center;
+}
+
+.mainImage {
+    text-align: center;
+}
+
+#manglasses {
+    width: 70rem;
+}
+
+#condiciones {
+    text-align: justify;
+    margin: 1.2rem;
+    color: #676767;
+}
+
+.parent2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: center;
+    background-color: #001f42;
+    color: white;
+    padding: 2rem;
+}
+
+#dinerscard{
+    width: 10rem;
+}
+
+#direccion{
+    margin: 1.2rem;
+    padding: 2rem;
+    color: #676767;
+}
+
+#fondo {
+    background-color: #ebebed;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img id="logo" src="dinersclub-svgrepo-com.svg" alt="">
+            </ul>
+        </nav>
+    </header>
+
+    <div class="parent paragraph">
+        <div class="div1">
+            <p>Estimado:</p>
+        </div>
+        <div class="div2">
+            <p>Primer_nombre</p>
+        </div>
+    </div>
+
+    <div class="mainImage">
+        <img id="manglasses" src="Imagen1.png" alt="">
+    </div>
+
+    <div class="content">
+        <h1 class="title">Diners Club, siempre contigo</h1>
+        <p class="paragraph">Queremos asegurarnos de que todo esté en orden para que pueda disfrutar de nuestros
+            servicios
+            de
+            manera ininterrumpida.</p>
+        <p class="paragraph">Por eso, le recordamos que su fecha de pago vence el:
+        </p>
+        <p class="paragraph">FEC_VEN_PREVENTIVA_ENE24▾</p>
+        <p class="paragraph">Realizar su pago a tiempo garantizará que siga aprovechando al máximo los beneficios que le
+            ofrecemos.</p>
+        <p class="paragraph" style="font-weight: 700;">
+            En caso de dudas comuníquese:
+        </p>
+        <p class="paragraph">
+            Llamando al (01) 615 1111 Opción 2
+        </p>
+        <p class="paragraph" style="color: #001f42; font-weight: 600;">
+            ¡No afecte su calificación crediticia!
+        </p>
+        <p class="paragraph">
+            Recuerde que puede realizar su pago a través del <a href="https://www.dinersclub.pe/dinersclubperuapp">App
+                Diners Club</a>.
+        </p>
+        <p class="paragraph">Si ya pagó, haga caso omiso a esta comunicación.</p>
+    </div>
+    <div class="parent2">
+        <div>
+            VISÍTANOS:
+            <div>
+                <img class="socialMedia" src="icon/Imagen3.png" alt="">
+                <img src="icon/Imagen4.png" alt="">
+            </div>
+        </div>
+        <div>SÍGUENOS</div>
+        <div>
+            <img id="dinerscard" src="Imagen2.png" alt="">
+        </div>
+    </div>
+    <hr>
+    <div id="condiciones">
+        <h3 style="color: black;">CONDICIONES GENERALES</h3>
+        <p style="text-align: justify;">Para mayor información sobre condiciones, tasas, comisiones y gastos consulte
+            nuestro Tarifario ubicado en la
+            Red de Oficinas, ingrese a <a href="https://www.dinersclub.pe"> www.dinersclub.pe</a> ó comuníquese al Área
+            de Atención al Socio llamando al (01) 615.1111, opción 2.</p>
+    </div>
+
+    <hr>
+
+    <div id="fondo">
+        <h1></h1>
+        <div id="direccion">
+            <p>Este correo electrónico ha sido enviado a EMAIL_ADDRESS_▾</p>
+
+            <p>Dirección: Av. Canaval Moreyra 535, San Isidro / Av. La Encalada 928, Surco. Teléfono: (01) 615.1111</p>
+
+            <p>E-mail: socios@dinersclub.com.pe</p>
+
+            <p>Diners Club</p>
+
+
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
